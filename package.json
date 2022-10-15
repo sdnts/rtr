@@ -1,0 +1,16 @@
+{
+  "name": "rtr",
+  "description": "The tiniest router for Cloudflare Workers",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "https://github.com/sid405/rtr",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "3.17.0",
+    "typescript": "4.8.4"
+  }
+}
