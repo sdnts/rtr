@@ -1,0 +1,17 @@
+{
+  "name": "rtr-example",
+  "description": "The tiniest router for Cloudflare Workers",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "3.17.0",
+    "rtr": "file:../dist/index.js",
+    "typescript": "4.8.4",
+    "wrangler": "2.1.12"
+  }
+}

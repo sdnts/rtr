@@ -1,19 +1,3 @@
-# rtr
-
-A tiny router for Cloudflare Workers & Deno Deploy
-
-# Usage
-
-Install this package:
-(or just copy over src/index.ts to your project directly)
-
-```
-npm install rtr
-```
-
-Define your routes and handlers in your worker's `fetch` handler:
-
-```typescript
 import { route } from "rtr";
 
 export default {
@@ -49,6 +33,3 @@ export default {
     });
   },
 };
-```
-
-This package is just a really light wrapper around the `URLPattern` API, so for more information about the kinds of things you can do, refer to [this MDN page](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern/URLPattern)
