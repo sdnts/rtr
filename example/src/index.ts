@@ -2,7 +2,7 @@ import { route } from "rtr";
 
 export default {
   async fetch(r: Request) {
-    return route<Response>(r, {
+    return route(r, {
       // Match a method and a route
       "GET /": () => {
         return new Response("Hello World!");

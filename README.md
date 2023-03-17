@@ -1,15 +1,11 @@
-# rtr
+# (WIP) rtr
 
-A tiny router for Cloudflare Workers & Deno Deploy
+A tiny router for Cloudflare Workers & Deno Deploy.
+Don't use pls, it isn't type-safe yet.
 
 # Usage
 
-Install this package:
-(or just copy over src/index.ts to your project directly)
-
-```
-npm install rtr
-```
+Copy over src/index.ts to your project directly
 
 Define your routes and handlers in your worker's `fetch` handler:
 
